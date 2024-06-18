@@ -23,17 +23,23 @@ module.exports = () => {
         name: 'Text Editor',
         short_name: 'Text Editor',
         description: 'The greatest text editor',
+        background_color: '#7eb4e2',
+        theme_color: '#7eb4e2',
+        fingerprints: false,
+        start_url: '/',
+        publicPath: '/',
+
         icons: [
           {
-            src: path.resolve('src/images/icon.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
           },
         ],
       }),
       // Injects the service worker script into the manifest
       new InjectManifest({
-        swSrc: './src/js/src-sw.js',
-        swDest: 'service-worker.js',
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
     ],
     module: {
