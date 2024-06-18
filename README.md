@@ -47,5 +47,8 @@ The application will be accessible at the specified server endpoint.
 ## screenshots of application 
 [screenshot of editor](./client/src/images/editor%20screenshot.png)
 [screenshot of text](./client/src/images/text%20screenshot.png)
+
+## link to try Jate out
+https://text-editor-747g.onrender.com/
 ## Contributing
 Contributions are welcome! 
